@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#231F20">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical"
+           android:gravity="center">
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="70dp"
+               android:background="@drawable/menubar_new"/>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center"
+               android:orientation="horizontal">
+
+               <Button
+                   android:id="@+id/btn_coffee"
+                   android:layout_width="160dp"
+                   android:layout_height="160dp"
+                   android:background="@drawable/coffeebtn_1"
+                   android:layout_marginRight="20dp"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginLeft="20dp"
+                   android:layout_marginBottom="20dp"
+                   android:text="coffee"
+                   android:fontFamily="@font/jalnan"
+                   android:textColor="#FFFFFF"
+                   android:gravity="bottom"
+                   android:padding="8dp"/>
+
+               <Button
+                   android:id="@+id/btn_tea"
+                   android:layout_width="160dp"
+                   android:layout_height="160dp"
+                   android:background="@drawable/teabtn_1"
+                   android:layout_marginRight="20dp"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginLeft="20dp"
+                   android:layout_marginBottom="20dp"
+                   android:text="Tea"
+                   android:fontFamily="@font/jalnan"
+                   android:textColor="#FFFFFF"
+                   android:gravity="bottom"
+                   android:padding="8dp"/>
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center"
+               android:orientation="horizontal">
+
+               <Button
+                   android:id="@+id/btn_ade"
+                   android:layout_width="160dp"
+                   android:layout_height="160dp"
+                   android:background="@drawable/adebtn_1"
+                   android:layout_marginRight="20dp"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginLeft="20dp"
+                   android:layout_marginBottom="20dp"
+                   android:text="Ade"
+                   android:fontFamily="@font/jalnan"
+                   android:textColor="#FFFFFF"
+                   android:gravity="bottom"
+                   android:padding="8dp"/>
+
+               <Button
+                   android:id="@+id/btn_blende"
+                   android:layout_width="160dp"
+                   android:layout_height="160dp"
+                   android:background="@drawable/blandedbtn_1"
+                   android:layout_marginRight="20dp"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginLeft="20dp"
+                   android:layout_marginBottom="20dp"
+                   android:text="Blende"
+                   android:fontFamily="@font/jalnan"
+                   android:textColor="#FFFFFF"
+                   android:gravity="bottom"
+                   android:padding="8dp"/>
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center"
+               android:orientation="horizontal">
+
+               <Button
+                   android:id="@+id/btn_season"
+                   android:layout_width="160dp"
+                   android:layout_height="160dp"
+                   android:background="@drawable/icebtn_1"
+                   android:layout_marginRight="20dp"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginLeft="20dp"
+                   android:layout_marginBottom="20dp"
+                   android:text="icecream"
+                   android:fontFamily="@font/jalnan"
+                   android:textColor="#FFFFFF"
+                   android:gravity="bottom"
+                   android:padding="8dp"/>
+
+               <Button
+                   android:id="@+id/btn_dessert"
+                   android:layout_width="160dp"
+                   android:layout_height="160dp"
+                   android:background="@drawable/dejartbtn_1"
+                   android:layout_marginRight="20dp"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginLeft="20dp"
+                   android:layout_marginBottom="20dp"
+                   android:text="dessert"
+                   android:fontFamily="@font/jalnan"
+                   android:textColor="#FFFFFF"
+                   android:gravity="bottom"
+                   android:padding="8dp"/>
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center"
+               android:orientation="horizontal">
+
+               <Button
+                   android:id="@+id/btn_bakery"
+                   android:layout_width="160dp"
+                   android:layout_height="160dp"
+                   android:background="@drawable/bakerybtn_1"
+                   android:layout_marginRight="20dp"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginLeft="20dp"
+                   android:layout_marginBottom="20dp"
+                   android:text="bakery"
+                   android:fontFamily="@font/jalnan"
+                   android:textColor="#FFFFFF"
+                   android:gravity="bottom"
+                   android:padding="8dp"/>
+
+               <Button
+                   android:id="@+id/btn_sandwich"
+                   android:layout_width="160dp"
+                   android:layout_height="160dp"
+                   android:background="@drawable/sandbtn_1"
+                   android:layout_marginRight="20dp"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginLeft="20dp"
+                   android:layout_marginBottom="20dp"
+                   android:text="Sandwich"
+                   android:fontFamily="@font/jalnan"
+                   android:textColor="#FFFFFF"
+                   android:gravity="bottom"
+                   android:padding="8dp"/>
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center"
+               android:orientation="horizontal">
+
+               <Button
+                   android:id="@+id/btn_macaroon"
+                   android:layout_width="160dp"
+                   android:layout_height="160dp"
+                   android:background="@drawable/macarongbtn_1"
+                   android:layout_marginRight="20dp"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginLeft="20dp"
+                   android:layout_marginBottom="20dp"
+                   android:text="macaroon"
+                   android:fontFamily="@font/jalnan"
+                   android:textColor="#FFFFFF"
+                   android:gravity="bottom"
+                   android:padding="8dp"/>
+
+               <Button
+                   android:id="@+id/btn_salad"
+                   android:layout_width="160dp"
+                   android:layout_height="160dp"
+                   android:background="@drawable/salbtn_1"
+                   android:layout_marginRight="20dp"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginLeft="20dp"
+                   android:layout_marginBottom="20dp"
+                   android:text="salad"
+                   android:fontFamily="@font/jalnan"
+                   android:textColor="#FFFFFF"
+                   android:gravity="bottom"
+                   android:padding="8dp"/>
+           </LinearLayout>
+
+
+
+
+
+
+
+
+       </LinearLayout>
+
+
+   </ScrollView>
+
+
+</LinearLayout>

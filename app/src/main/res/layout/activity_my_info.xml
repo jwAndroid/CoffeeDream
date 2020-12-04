@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/info_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MyInfoActivity"
+    android:background="@drawable/intro_r_bg">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.2"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/iv_myProfile"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/tv_myName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="name"
+                    android:textSize="30sp"
+                    android:fontFamily="@font/jalnan"
+                    android:textColor="#ffffff"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:id="@+id/tv_myEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="email"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/jalnan"
+                    android:textColor="#ffffff"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="20dp"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/th_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Black Thema"
+                android:textSize="20sp"
+                android:fontFamily="@font/jalnan"
+                android:textColor="#ffffff"
+                android:layout_toStartOf="@+id/th_button"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="25dp"
+                />
+
+            <com.kyleduo.switchbutton.SwitchButton
+                android:id="@+id/th_button"
+                app:kswBackColor="#292524"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/SwitchButtonStyle"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp">
+
+            </com.kyleduo.switchbutton.SwitchButton>
+
+
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#88FFFFFF"
+            android:fontFamily="@font/jalnan"
+            android:textColor="#FBC02D"
+            android:text="로그아웃"/>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="로그인"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/jalnan"
+            android:textColor="#FBC02D"
+            android:backgroundTint="#8AFFFFFF"/>
+
+        <Button
+            android:id="@+id/btn_goMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="메인화면"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/jalnan"
+            android:textColor="#040404"
+            android:backgroundTint="#8AFFFFFF"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

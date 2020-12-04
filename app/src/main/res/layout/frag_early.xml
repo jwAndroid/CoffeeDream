@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="380dp"
+                    android:background="@drawable/coffee_location_1"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#6A000000"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="230dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/coffee_location_2"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="right">
+
+                        <Button
+                            android:layout_gravity="center"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:backgroundTint="#00000000"
+                            android:background="@drawable/ic_baseline_search_24"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/coffee_location_3" />
+
+
+                        <Button
+                            android:id="@+id/btn_map1"
+                            android:layout_width="70dp"
+                            android:layout_height="37dp"
+                            android:layout_marginLeft="60dp"
+                            android:layout_marginTop="108dp"
+                            android:background="@drawable/selector_usunggu" />
+
+
+                        <Button
+                            android:id="@+id/btn_map2"
+                            android:layout_width="49dp"
+                            android:layout_height="29dp"
+                            android:layout_marginLeft="185dp"
+                            android:layout_marginTop="70dp"
+                            android:background="@drawable/selector_deduk" />
+
+                        <Button
+                            android:id="@+id/btn_map3"
+                            android:layout_width="49dp"
+                            android:layout_height="29dp"
+                            android:layout_marginLeft="60dp"
+                            android:layout_marginTop="273dp"
+                            android:background="@drawable/selector_suogu" />
+
+                        <Button
+                            android:id="@+id/btn_map4"
+                            android:layout_width="49dp"
+                            android:layout_height="29dp"
+                            android:layout_marginLeft="150dp"
+                            android:layout_marginTop="215dp"
+                            android:background="@drawable/selector_gwunggu"/>
+
+                        <Button
+                            android:id="@+id/btn_map5"
+                            android:layout_width="49dp"
+                            android:layout_height="29dp"
+                            android:layout_marginLeft="215dp"
+                            android:layout_marginTop="180dp"
+                            android:background="@drawable/selector_dounggu"/>
+
+                    </FrameLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>
