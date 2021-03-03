@@ -6,13 +6,23 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
+import com.example.mycoffeedreamproject_04.Fragment.FragEarly;
+import com.example.mycoffeedreamproject_04.Fragment.FragEnd;
+import com.example.mycoffeedreamproject_04.Fragment.FragFriday;
+import com.example.mycoffeedreamproject_04.Fragment.FragMonday;
+import com.example.mycoffeedreamproject_04.Fragment.FragThursday;
+import com.example.mycoffeedreamproject_04.Fragment.FragTuesday;
+import com.example.mycoffeedreamproject_04.Fragment.FragWednesday;
+
 public class ViewPagerAdapter extends FragmentPagerAdapter {
+
+    /**/
     public ViewPagerAdapter(@NonNull FragmentManager fm) {
         super(fm);
     }
 
 
-    // 프래그먼트 교체를 보여주는 처리를 구현한 곳
+    /*간단히 아이템(Fragment) position 를 가지고서 newInstance() > 해당 프래그먼트 객체 반환*/
     @NonNull
     @Override
     public Fragment getItem(int position) {
@@ -32,19 +42,18 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
             case 6:
                 return FragEnd.newInstance();
 
-            default:
-                return null;
+            default: return null;
         }
 
     }
 
+    /*아이템 개수 반환 */
     @Override
     public int getCount() {
         return 7;
     }
 
-//Story Menu Franchise Academy Location MainMenu
-
+    /*타이틀 반환 */
     @Nullable
     @Override
     public CharSequence getPageTitle(int position) {

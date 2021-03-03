@@ -6,7 +6,7 @@
     <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
-        android:name=".App"
+        android:name=".Auth.App"
         android:allowBackup="true"
         android:icon="@mipmap/icon"
         android:label="@string/app_name"
@@ -14,37 +14,39 @@
         android:roundIcon="@mipmap/icon"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light">
-        <activity android:name=".RoastingStory"></activity>
-        <activity android:name=".CoffeeStory" />
-        <activity android:name=".BrandStrory" />
-        <activity android:name=".ContentsInfo" />
-        <activity android:name=".ClickedItemActivity" />
-        <activity android:name=".GridView" />
-        <activity android:name=".GoogleMap_5" />
-        <activity android:name=".GoogleMap_4" />
-        <activity android:name=".GoogleMap_3" />
-        <activity android:name=".GoogleMap_2" />
-        <activity android:name=".GoogleMap_1" />
-        <activity android:name=".InteriorGrid" />
-        <activity android:name=".MyInfoActivity" />
-        <activity android:name=".Intro2" />
+
+        <activity android:name=".Default.RoastingStory" />
+        <activity android:name=".Default.CoffeeStory" />
+        <activity android:name=".Default.BrandStrory" />
+        <activity android:name=".Default.ContentsInfo" />
+        <activity android:name=".Grid.ClickedItemActivity" />
+        <activity android:name=".Grid.GridView" />
+        <activity android:name=".Map.GoogleMap_5" />
+        <activity android:name=".Map.GoogleMap_4" />
+        <activity android:name=".Map.GoogleMap_3" />
+        <activity android:name=".Map.GoogleMap_2" />
+        <activity android:name=".Map.GoogleMap_1" />
+        <activity android:name=".Default.InteriorGrid" />
+        <activity android:name=".Splash.MyInfoActivity" />
+        <activity android:name=".Splash.Intro2" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".KakaoLoginApi" />
+        <activity android:name=".Auth.KakaoLoginApi" />
 
         <meta-data
             android:name="com.kakao.sdk.AppKey"
             android:value="@string/kakao_app_key" />
+
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyCLpr8Y_skZsamNMCyEib92ufTqDtzCDk0" />
 
-        <activity android:name=".Intro">
+        <activity android:name=".Splash.Intro">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>

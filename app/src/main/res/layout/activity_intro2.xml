@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/event_r"
-    tools:context=".Intro2">
+    tools:context=".Splash.Intro2">
 
 
     <FrameLayout

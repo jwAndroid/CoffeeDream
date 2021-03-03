@@ -8,7 +8,7 @@
     android:background="@drawable/intro_r_bg"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".KakaoLoginApi">
+    tools:context=".Auth.KakaoLoginApi">
 
 
     <ImageView
