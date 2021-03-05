@@ -5,7 +5,8 @@
 - blog : https://devcomjw.blogspot.com <br />
 
 ## Introduction
-- NONE
+- This is an app that introduces coffee to start a franchise cafe.
+- I made it for ui study.
 
 ## Development Environment
 - Android Studio 
