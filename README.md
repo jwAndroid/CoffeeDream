@@ -6,7 +6,7 @@
 
 ## Introduction
 - This is an app that introduces coffee to start a franchise cafe.
-- I made it for ui study.
+- This code was developed for my education.
 
 ## Development Environment
 - Android Studio 
@@ -16,9 +16,3 @@
 - minSdkVersion : 21
 - targetSdkVersion : 30
 
-
-## APIs
-- NONE
-
-## Database table information
-- NONE
